@@ -9,7 +9,7 @@ from flask import request
 import urllib2
 import re
 
-whitelist = ['sjt402']
+whitelist = ['sjt402', 'qwv828']
 
 
 @app.route('/getiCal', methods=['GET'])
