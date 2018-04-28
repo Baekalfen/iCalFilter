@@ -9,7 +9,12 @@ from flask import request
 import urllib2
 import re
 
-whitelist = ['sjt402', 'qwv828']
+whitelist = [
+	'sjt402', # Mads
+	'qwv828', # Troels
+	'pzj895', # Jan
+	'dcz738', # Mark
+]
 
 CACHE = True
 

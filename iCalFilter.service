@@ -1,0 +1,12 @@
+[Unit]
+Description=iCalFilter Daemon
+
+[Service]
+WorkingDirectory=/home/python-server/iCalFilter/
+ExecStart=/usr/bin/python run.py
+Restart=always
+User=python-server
+
+[Install]
+WantedBy=multi-user.target
+
